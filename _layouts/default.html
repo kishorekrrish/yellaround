@@ -27,26 +27,6 @@
 </script>
 {% endif %}  
     
-
-<script>
-    import { LightningElement, api } from 'lwc';
-
-    export default class ChartBar extends LightningElement {
-        @api percentage;
-    
-        get style() {
-            console.log("LWC in WEb");
-            return `width: ${this.percentage}%`;
-        }
-        
-        connectedCallback() {
-            console.log("LWC in WEb");
-        }
-        
-
-    }
-    
-</script>
 </head>
     
 
