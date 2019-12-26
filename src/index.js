@@ -1,4 +1,4 @@
-import { createElement, register } from 'lwc';
+import { createElement, register } from '/.vscode/typings/lwc';
 import { registerWireService } from '@lwc/wire-service';
 import UiApp from 'ui/app';
 
