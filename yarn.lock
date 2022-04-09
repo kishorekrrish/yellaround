@@ -867,8 +867,9 @@
   resolved "https://registry.yarnpkg.com/@lwc/features/-/features-1.1.1.tgz#fe56cd148612a5746703251620d89d3087f0fd23"
   integrity sha512-QcwsNH6aYsrZ+rSTDAK6YM/B8c9I+TNM03m70KD8E874tMrs330mtZGDRB1YKc/EpwL4R1o6yNEgVNw3y6h+WA==
 
-"@lwc/jest-preset@github:muenzpraeger/lwc-jest-preset-ts-fix":
+"@lwc/jest-preset@muenzpraeger/lwc-jest-preset-ts-fix":
   version "1.1.0-alpha1"
+  uid "5f2a28563055cbf674dc97f3b184bab0d4c849e2"
   resolved "https://codeload.github.com/muenzpraeger/lwc-jest-preset-ts-fix/tar.gz/5f2a28563055cbf674dc97f3b184bab0d4c849e2"
   dependencies:
     "@lwc/jest-resolver" "1.1.0-alpha1"
@@ -882,8 +883,9 @@
   resolved "https://registry.yarnpkg.com/@lwc/jest-resolver/-/jest-resolver-1.1.0-alpha1.tgz#09ed751dd0d41ba1a340dab67e58f39fd526237d"
   integrity sha512-jexhw4p78jWbnv28eRWTLCdBHnfycUCaaY642njrfXlJQYuu//HTVqqi3anmWF/fEs9nd7zcpCR+UTe+tv5lwQ==
 
-"@lwc/jest-resolver@github:muenzpraeger/lwc-jest-resolver-resolution-fix":
+"@lwc/jest-resolver@muenzpraeger/lwc-jest-resolver-resolution-fix":
   version "2.2.0"
+  uid "772221f6dce07cddacb73cde21685fd16cad51db"
   resolved "https://codeload.github.com/muenzpraeger/lwc-jest-resolver-resolution-fix/tar.gz/772221f6dce07cddacb73cde21685fd16cad51db"
 
 "@lwc/jest-serializer@1.1.0-alpha1":
@@ -893,7 +895,7 @@
   dependencies:
     pretty-format "~24.8.0"
 
-"@lwc/jest-transformer@1.1.0-alpha1", "@lwc/jest-transformer@github:muenzpraeger/lwc-jest-transformer-ts-fix":
+"@lwc/jest-transformer@1.1.0-alpha1", "@lwc/jest-transformer@muenzpraeger/lwc-jest-transformer-ts-fix":
   version "1.1.0-alpha1"
   resolved "https://codeload.github.com/muenzpraeger/lwc-jest-transformer-ts-fix/tar.gz/a222f1f0f971a2b844fe2124321a2fabb3cc0520"
   dependencies:
@@ -7693,10 +7695,10 @@ mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-moment@^2.10.2, moment@^2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+moment@^2.10.2, moment@^2.24.0, moment@^2.29.2:
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
+  integrity sha512-UgzG4rvxYpN15jgCmVJwac49h9ly9NurikMWGPdVxm8GZD6XjkKPxDTjQQ43gtGgnV3X0cAyWDdP2Wexoquifg==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
